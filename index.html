@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <title>User Finder</title>
+  </head>
+  <body>
+    <div class="ui container">
+      <h2 class="ui message warning center aligned icon header">
+        <i class="circular bug icon"></i>
+      </h2>
+      <div class="ui two column centered grid">
+        <div class="column">
+          <div class="ui info message">
+            <div class="header">Search</div>
+            <div class="ui divider"></div>
+            <form class="ui form">
+              <div class="field">
+                <input
+                  type="number"
+                  placeholder="Search User"
+                  id="user-input"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="column" id="show-user"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
